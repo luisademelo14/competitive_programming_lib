@@ -56,7 +56,12 @@ ll chinese_remainder_theorem(vector<ll> a, vector<ll>n){
     }
 
     for(int i=0; i<size; i++){
-        minv[i] = m[i]%n[i]; // minv1 = m1 mod n1 , minv2 = m2 mod n2,..... 
+        int z = 0;
+        int x = m[i];
+        while((z*x)%n[i]!=1){
+            z++;
+        }
+        minv[i] = z; // minv1 * m1 ≅ 1 mod n1 , minv2 * m2 ≅ 1 mod n2,..... 
     }
 
     for(int i=0; i<size; i++){
