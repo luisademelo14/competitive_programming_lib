@@ -1,5 +1,7 @@
 #include "../template.h"
 
+// complexidade do algoritmo: O(n+m)
+
 vector<vector<int>> g; // grafo como lista de adj
 
 int n; // numero de vertices
