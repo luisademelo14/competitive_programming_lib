@@ -1,6 +1,6 @@
 // imagine dragons no brasil 2024
 
-#include <../template.h>
+#include "../template.h"
 
 
 // seja m = m1 * m2 * ... * mk (fatores coprimos entre si)
