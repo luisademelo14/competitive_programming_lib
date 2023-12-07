@@ -40,4 +40,4 @@ typedef set<string> ss;
 #define PI acos(-1.0)
 #define EPS 1e-9 // 0.000000001
 
-const int MAX_N = 1000000007;
+const int max_n = 1000000007;

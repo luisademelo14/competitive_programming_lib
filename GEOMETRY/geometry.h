@@ -1,10 +1,4 @@
-#include <bits/stdc++.h>
- 
-using namespace std;
-
-const int max_n = 1000000007;
-
-typedef long double ld;
+#include "../template.h"
 
 // estrutura que representa o ponto
 struct Point{
