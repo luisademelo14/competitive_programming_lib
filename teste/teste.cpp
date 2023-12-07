@@ -1,8 +1,6 @@
-#include <bits/stdc++.h>
- 
-using namespace std;
+// imagine dragons no brasil 2024
 
-typedef long long ll;
+#include <../template.h>
 
 
 // seja m = m1 * m2 * ... * mk (fatores coprimos entre si)
