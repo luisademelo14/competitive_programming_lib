@@ -5,7 +5,7 @@ using namespace std;
 typedef long long ll;
 
 
-// seja m = m1 * m2 *** mk (fatores coprimos entre si)
+// seja m = m1 * m2 * ... * mk (fatores coprimos entre si)
 
 // temos o seguinte sistema de congruencias pra resolver:
 
