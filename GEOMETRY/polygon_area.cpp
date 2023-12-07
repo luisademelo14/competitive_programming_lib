@@ -1,8 +1,4 @@
 #include "geometry.h"
- 
-using namespace std;
-
-const int max_n = 1000000007;
 
 // p eh um vetor de pontos
 
