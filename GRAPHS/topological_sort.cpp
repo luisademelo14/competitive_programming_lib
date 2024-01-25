@@ -9,7 +9,7 @@ vector<vector<int>> graph; // lista de adj
 int n; // numero de vertices
 
 
-// incoming[i] representa a quantidade de vértice que devem vir antes de i
+// incoming[i] representa a quantidade de vertices que devem vir antes de i
 vector<int> get_incoming(){
     vector<int> incoming(n, 0);
     for(int i=0; i<n; i++){
