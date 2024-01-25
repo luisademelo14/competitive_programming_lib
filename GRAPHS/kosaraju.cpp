@@ -61,7 +61,7 @@ void dfs_cc(int node, int cnt){
 
 // tirando os elementos da pilha e rodando a segunda dfs 
 // pra achar os SCCs do grafo 
-void find_scc(stack<int> &s){
+int find_scc(stack<int> &s){
     scc.assign(n, -1);
     int qnt_scc = 0;
     int curr_node;
@@ -73,16 +73,17 @@ void find_scc(stack<int> &s){
             qnt_scc++;
         }
     }
+    return qnt_scc;
 }
 
 
 // funcao problem solver (chama as outras)
-void strongly_connected_comp(){
+int strongly_connected_comp(){
     n = (int) graph.size();
 
     stack<int> s = get_stack();
 
     invert_graph();
 
-    find_scc(s);
+    return find_scc(s);
 }
