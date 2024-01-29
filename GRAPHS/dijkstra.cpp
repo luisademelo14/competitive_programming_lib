@@ -11,6 +11,8 @@ vector<vector<pair<int,int>>> graph;
 // complexidade do algoritmo: O(E * log(V)), 
 // onde E eh o numero de arestas e V eh o numero de vertices do grafo
 
+// IMPORTANTE: o grafo nao pode conter arestas de peso negativo
+
 // quando usar: temos um vertice de saida e queremos calcular 
 // a menor distancia entre ele e pelo menos um dos outros vertices do grafo
 
