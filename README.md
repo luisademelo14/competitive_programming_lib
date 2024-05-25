@@ -1,2 +1,2 @@
-# comprincesas unicamp
+# Unicamp
 códigos pra maratona de programação
